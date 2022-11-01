@@ -13,13 +13,61 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  margin-left: 64px;
+  display: flex;
+  align-items: center;
   /* parameters for the header section */
 }
 
+.header__title {
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  width: 730px;
+  z-index: 2
+}
+
+.header__subtitle {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  z-index: 2;
+}
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
+  background-color: #2F80ED;
+  position: absolute;
+  top: 64px;
+  right: 0;
   height: 568px;
   width: 568px;
+  z-index: 0;
+}
+
+
+.header__main-illustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 756px;
+  height: 608px;
+  z-index: 1;
+}
+
+.logo {
+  width: 154px;
+  height: 31px;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
 }
 
 /* including elements with key-value modifiers */
