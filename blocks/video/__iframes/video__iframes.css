@@ -1,0 +1,7 @@
+.video__iframes {
+  display: flex;
+  box-sizing: content-box;
+  padding-top: 50px;
+  position: relative;
+  top: 55px;
+}

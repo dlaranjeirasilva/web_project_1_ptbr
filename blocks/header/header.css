@@ -9,10 +9,10 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  margin-left: 64px;
   display: flex;
   align-items: center;
   overflow: hidden;
+  background-color: #F2F2F2;
 }
 
 
