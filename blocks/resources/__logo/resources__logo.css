@@ -2,27 +2,3 @@
   width: 270px;
   height: 38px;
 }
-
-.resources__logo:first-of-type {
-  background-image: url("../../../images/logo/resources-tedED.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.resources__logo:nth-of-type(2) {
-  background-image: url("../../../images/logo/resources-Medium.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.resources__logo:nth-of-type(3) {
-  background-image: url("../../../images/logo/resources-dezeen.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.resources__logo:last-of-type {
-  background-image: url("../../../images/logo/resources-goodreads.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}

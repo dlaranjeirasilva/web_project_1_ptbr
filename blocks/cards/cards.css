@@ -2,4 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 920px;
+  column-gap: 100px;
+  row-gap: 60px;
 }
